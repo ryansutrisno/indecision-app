@@ -4,6 +4,7 @@ import Action from './Action';
 import Options from './Options';
 import AddOption from './AddOption';
 import OptionModal from './OptionModal';
+import Footer from './Footer';
 
 export default class IndecisionApp extends React.Component {
   state = {
@@ -67,8 +68,7 @@ export default class IndecisionApp extends React.Component {
   }
 
   render() {
-    const subtitle = 'Put your life in the hands of a computer';
-
+    const subtitle = 'Put your life in the hands of a gadgets';
     return (
       <div>
         <Header subtitle={subtitle} />
@@ -90,6 +90,7 @@ export default class IndecisionApp extends React.Component {
           selectedOption={this.state.selectedOption}
           handleClearSelectedOption={this.handleClearSelectedOption}
         />
+        <Footer />
       </div>
     );
   }

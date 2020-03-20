@@ -17,6 +17,12 @@
   margin: 0;
 }
 
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
 @media (min-width: $desktop-breakpoint) {
   .header {
     margin-bottom: $xl-size;
