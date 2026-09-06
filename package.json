@@ -17,7 +17,7 @@
     "babel-preset-react": "6.24.1",
     "css-loader": "^0.28.4",
     "live-server": "^1.2.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^9.0.0",
     "normalize.css": "^7.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.1",
@@ -29,6 +29,6 @@
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
     "webpack": "^3.1.0",
-    "webpack-dev-server": "^2.5.1"
+    "webpack-dev-server": "^6.0.0"
   }
 }
